@@ -8,9 +8,10 @@ var courseObj = {
     name: "Interface Mastery",
     publisher: "Noyan Press",
     price: 40,
-    isPublished: false
+    isPublished: false,
+    author: "Noyan"
 };
-console.log("Course Name: " + courseObj.name + " Course Price: " + courseObj.price);
+console.log("Course Name: " + courseObj.name + " Course Price: " + courseObj.price + " Author:" + courseObj.author);
 function coursePrice(courseObj) {
     console.log(courseObj.price);
 }
