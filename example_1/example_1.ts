@@ -1,3 +1,4 @@
+//Simple geometry module example with typescript
 module Geometry {
 	export interface Vector2dInterface {
 		toArray(callback: (x: number[]) => void): void;
